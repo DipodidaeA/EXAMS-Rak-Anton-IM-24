@@ -4,7 +4,7 @@ const Suffix = 'en';
 const IndexPrefixInWord = Word.indexOf(Prefix);
 if (IndexPrefixInWord == -1) return;
 const IndexSuffixInWord = Word.indexOf(Suffix);
-if (IndexSuffixInWord == -1) returen;
+if (IndexSuffixInWord == -1) return;
 const AmountCharInPrefix = Prefix.length;
 const EndIndexCharInPrefix = IndexPrefixInWord + AmountCharInPrefix;
 const SubstringBetweenPrefixAndSuffix = Word.substring(EndIndexCharInPrefix, IndexSuffixInWord);
